@@ -1,0 +1,42 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 96px;
+  width: 70%;
+  position: fixed;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: none;
+  background-image: linear-gradient(to right, #022c40, #022c40c5);
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+  z-index: 999;
+}
+
+nav div {
+  padding: 12px 48px;
+}
+
+.logo {
+  font-size: 28px;
+  color: #fd4556;
+}
+
+.nav-icon {
+  font-size: 24px;
+  color: #fffbf5;
+}
+
+.icon-box {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.icon-box:hover {
+  background-color: #fffbf52c;
+}
+
+.active {
+  background-color: #fffbf52c;
+}

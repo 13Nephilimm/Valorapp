@@ -1,0 +1,36 @@
+.kda-section {
+  background-image: linear-gradient(to right, #1c232b, #21262b);
+  margin-top: 96px !important;
+  padding: 170px;
+}
+
+.kda-section h1 {
+  color: #fffbf5;
+  padding: 8px;
+  font-size: 24px;
+}
+
+.input-container {
+  background-color: #022c40;
+  padding: 108px;
+  clip-path: polygon(0 0, 75% 0, 100% 25%, 100% 100%, 9% 100%, 0 90%);
+}
+
+.input-box {
+  width: 80%;
+}
+
+.input {
+  border-bottom: 3px solid #1c232b;
+}
+
+.kda-heading {
+  text-align: start;
+  padding: 16px;
+  color: #fffbf5;
+}
+
+.kda-heading span {
+  margin-left: 8px;
+  color: #fd4556;
+}
