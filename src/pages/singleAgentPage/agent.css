@@ -6,7 +6,7 @@
 .agent-heading {
   color: #fd4556;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   padding: 8px 16px 48px 16px;
   text-shadow: #fffbf5 1px 2px;
@@ -190,6 +190,7 @@
   font-weight: 600;
   font-size: 28px;
   padding: 16px;
+  font-family: "Skranji", cursive;
 }
 
 .right-box p {

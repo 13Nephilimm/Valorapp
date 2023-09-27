@@ -1,7 +1,7 @@
 .hero-section {
   background-image: linear-gradient(to right, #1c232b, #21262b);
   margin-top: 96px !important;
-  padding: 48px 24px;
+  padding: 12px 24px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
@@ -20,7 +20,7 @@
 }
 
 .lobby-container {
-  padding: 24px;
+  padding: 2px 24px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   place-items: center;
@@ -28,7 +28,7 @@
 }
 
 .player-box {
-  width: 250px;
+  width: 268px;
   background-image: linear-gradient(to right, #1c232b, #21262b);
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
   color: #fffbf540;
@@ -46,16 +46,18 @@
 }
 
 .player-box-main {
-  height: 520px;
+  height: 640px;
   position: relative;
 }
 
 .player-box-secondary {
-  height: 490px;
+  width: 241.2px;
+  height: 576px;
 }
 
 .player-box-third {
-  height: 470px;
+  height: 512px;
+  width: 214.4px;
 }
 
 .player-box div {
@@ -82,7 +84,7 @@
   color: #fffbf5;
   bottom: 10%;
   left: 50%;
-  font-size: 28px;
+  font-size: 24px;
   transform: translateX(-50%);
   font-weight: 500;
 }

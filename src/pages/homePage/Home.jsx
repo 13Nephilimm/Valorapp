@@ -8,6 +8,7 @@ import PC2 from "../../assets/player-card-2.jpg";
 import PC3 from "../../assets/player-card-3.jpg";
 import PC4 from "../../assets/player-card-4.jpg";
 import PC5 from "../../assets/player-card-5.jpg";
+import music from "../../assets/die-for-you.mp3";
 
 const Home = () => {
   const [player, setPlayer] = useState(false);

@@ -87,6 +87,7 @@
   z-index: 999;
   transition: all 0.3s;
   text-shadow: #000 1px 0 10px;
+  font-family: "Skranji", cursive;
 }
 
 .agent-card:hover .card-name {
@@ -109,6 +110,7 @@
   text-transform: uppercase;
   color: #fffbf5;
   margin-bottom: 24px;
+  text-shadow: #fd4556 2px 4px;
 }
 
 .search-box,
