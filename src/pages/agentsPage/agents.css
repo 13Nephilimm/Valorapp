@@ -85,6 +85,13 @@
   transform: translateX(-50%);
   letter-spacing: 3px;
   z-index: 999;
+  transition: all 0.3s;
+  text-shadow: #000 1px 0 10px;
+}
+
+.agent-card:hover .card-name {
+  bottom: 4%;
+  text-shadow: #000 2px 5px 10px;
 }
 
 .filters-container {

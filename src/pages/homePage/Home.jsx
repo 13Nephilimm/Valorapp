@@ -36,7 +36,7 @@ const Home = () => {
             {player ? (
               <>
                 <motion.img
-                  src={PC2}
+                  src={PC3}
                   alt="player-card"
                   className="player-card-image"
                   initial={{ opacity: 0 }}
@@ -116,7 +116,7 @@ const Home = () => {
             {player2 ? (
               <>
                 <motion.img
-                  src={PC3}
+                  src={PC2}
                   alt="player-card"
                   className="player-card-image"
                   initial={{ opacity: 0 }}
