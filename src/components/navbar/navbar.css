@@ -35,6 +35,7 @@ nav div {
 
 .icon-box:hover {
   background-color: #fffbf52c;
+  transform: scale(1.1);
 }
 
 .active {

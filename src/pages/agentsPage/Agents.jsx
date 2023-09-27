@@ -98,9 +98,13 @@ const Agents = () => {
               <Link to={`/agents/${agent.id}`} key={agent.id}>
                 <motion.div
                   className="agent-card"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ duration: 0.8, type: "tween" }}
+                  variants={{
+                    hidden: { opacity: 0 },
+                    visible: { opacity: 1 },
+                  }}
+                  initial="hidden"
+                  animate="visible"
+                  transition={{ duration: 0.7 }}
                 >
                   <img
                     src={agent.image}
