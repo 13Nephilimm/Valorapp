@@ -20,6 +20,12 @@ import IMG19 from "../assets/image-19.png";
 import IMG20 from "../assets/image-20.png";
 import IMG21 from "../assets/image-21.png";
 import IMG22 from "../assets/image-22.png";
+import IMG23 from "../assets/image-23.png";
+import IMG24 from "../assets/image-24.png";
+import IMG25 from "../assets/image-25.png";
+import IMG26 from "../assets/image-26.png";
+import IMG27 from "../assets/image-27.png";
+import IMG28 from "../assets/image-28.png";
 import P1 from "../assets/pistol-1.png";
 import P2 from "../assets/pistol-2.png";
 import P3 from "../assets/pistol-3.png";
@@ -42,6 +48,12 @@ import P19 from "../assets/pistol-19.png";
 import P20 from "../assets/pistol-20.png";
 import P21 from "../assets/pistol-21.png";
 import P22 from "../assets/pistol-22.png";
+import P23 from "../assets/pistol-23.png";
+import P24 from "../assets/pistol-24.png";
+import P25 from "../assets/pistol-25.png";
+import P26 from "../assets/pistol-26.png";
+import P27 from "../assets/pistol-27.png";
+import P28 from "../assets/pistol-28.png";
 
 const agents = [
   {
@@ -303,6 +315,77 @@ const agents = [
     description: `Fade is a versatile Valorant agent with potent crowd control abilities. His "Prowler" seeks out and near-sights enemies, "Seize" immobilizes and weakens foes, and "Haunt" Reveals and disrupts enemy positions. His ultimate, "Nightfall," unleashes a debilitating wave of nightmare energy, making him a formidable force in the game.`,
     image: IMG22,
     pistol: P22,
+  },
+  {
+    id: 23,
+    name: "Clove",
+    gender: "Female",
+    abilities: ["Meddle", "Ruse", "Pick Me Up", "Not Dead Yet"],
+    nationality: "Scotland",
+    role: "Controller",
+    description: `Clove is fearless as they do not see death as a scary thing, in fact, they see it as beautiful. They are described as a Scottish troublemaker, which can be told in part by their bold personality; getting into the fight, without holding back.`,
+    image: IMG23,
+    pistol: P23,
+  },
+  {
+    id: 24,
+    name: "Iso",
+    gender: "Male",
+    abilities: ["Contingency", "Undercut", "Double Tap", "Kill Contract"],
+    nationality: "China",
+    role: "Duelist",
+    description: `Chinese hitman Li Zhao Yu is a radiant with the ability to transmute ambient, intangible radianite energy into solid, durable constructs. A former assassin for the Scions of Hourglass, Li gained a fearsome reputation for his high effectiveness. Though it was said that anyone who would go up against him would disappear for good, rumors still spread beyond about the "Dead Lilac", a bulletproof wizard who could take out entire squads with one round and condemn targets to their fate in a flash of purple.`,
+    image: IMG24,
+    pistol: P24,
+  },
+  {
+    id: 25,
+    name: "Vyse",
+    gender: "Female",
+    abilities: ["Razorvine", "Shear", "Arc Rose", "Steel Garden"],
+    nationality: "Unknown",
+    role: "Sentinel",
+    description: `Vyse is shown to be confident, calculative and arrogant. This is evident from when Vyse demanded without negotiation that she should take charge of the VALORANT Protocol's Interverse project when the information and research presented to her were amateurish. She was however willing to align with the Protocol's visions once her own demands were met first. Much of her past is however unknown, which can deem her overall personality as mysterious.`,
+    image: IMG25,
+    pistol: P25,
+  },
+  {
+    id: 26,
+    name: "Tejo",
+    gender: "Male",
+    abilities: [
+      "Stealth Drone",
+      "Special Delivery",
+      "Guided Salvo",
+      "Armageddon",
+    ],
+    nationality: "Colombia",
+    role: "Initiator",
+    description: `Colombian Tejo is the VALORANT Protocol's twenty-seventh recruit. A formerly-retired intelligence consultant, his unexpected arrival at the Protocol comes as a surprise to the rest of its agents, returning from a period of now interrupted leave to find a stranger suddenly wandering around HQ.`,
+    image: IMG26,
+    pistol: P26,
+  },
+  {
+    id: 27,
+    name: "Waylay",
+    gender: "Female",
+    abilities: ["Saturate", "Lightspeed", "Refract", "Convergent Paths"],
+    nationality: "Thailand",
+    role: "Duelist",
+    description: `A radiant from Thailand, Ariya Saengkaew (Thai: อาริยา แสงแก้ว) is the VALORANT Protocol's twenty-eighth recruit. She joins the Protocol at the request of her longtime friend Tejo to bring some more experience to the organization as it begins to confront a new threat to Alpha Earth.`,
+    image: IMG27,
+    pistol: P27,
+  },
+  {
+    id: 28,
+    name: "Veto",
+    gender: "Male",
+    abilities: ["Crosscut", "Chokehold", "Interceptor", "Evolution"],
+    nationality: "Senegal",
+    role: "Sentinel",
+    description: `Empowered by an unstoppable DNA mutation, Senegalese enforcer Veto defies the rules of engagement by nullifying his opponent's powers and technology. On Veto's battlefield, gunplay is your only guarantee.`,
+    image: IMG28,
+    pistol: P28,
   },
 ];
 

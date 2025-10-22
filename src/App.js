@@ -5,10 +5,12 @@ import Agents from "./pages/agentsPage/Agents";
 import Agent from "./pages/singleAgentPage/Agent";
 import Kda from "./pages/kdaCalculatorPage/Kda";
 import "./general.css";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/agents" element={<Agents />} />
