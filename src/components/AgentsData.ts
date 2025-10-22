@@ -55,7 +55,19 @@ import P26 from "../assets/pistol-26.png";
 import P27 from "../assets/pistol-27.png";
 import P28 from "../assets/pistol-28.png";
 
-const agents = [
+type Agent = {
+  id: number;
+  name: string;
+  role: string;
+  gender: string;
+  nationality: string;
+  abilities: string[];
+  description: string;
+  image: string;
+  pistol: string;
+};
+
+const agents: Agent[] = [
   {
     id: 1,
     name: "Brimstone",

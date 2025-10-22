@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./home.css";
-import Navbar from "../../components/navbar/Navbar";
+import Navbar from "../../components/navbar/Navbar.tsx";
 import PLAYERCARD from "../../assets/player-card.jpg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -8,7 +8,6 @@ import PC2 from "../../assets/player-card-2.jpg";
 import PC3 from "../../assets/player-card-3.jpg";
 import PC4 from "../../assets/player-card-4.jpg";
 import PC5 from "../../assets/player-card-5.jpg";
-import music from "../../assets/die-for-you.mp3";
 
 const Home = () => {
   const [player, setPlayer] = useState(false);
@@ -139,7 +138,11 @@ const Home = () => {
             <Link to={"/agents"}>Agents</Link>
           </button>
           <button className="lobby-button lobby-button-main">
-            <a href="https://playvalorant.com/en-gb/" target="_blank">
+            <a
+              rel="noopener"
+              href="https://playvalorant.com/en-gb/"
+              target="_blank"
+            >
               Play
             </a>
           </button>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./agents.css";
-import Navbar from "../../components/navbar/Navbar";
-import AgentsData from "../../components/AgentsData";
+import Navbar from "../../components/navbar/Navbar.tsx";
+import AgentsData from "../../components/AgentsData.ts";
 import { Link } from "react-router-dom";
 import { BsSearchHeartFill } from "react-icons/bs";
 import { motion } from "framer-motion";

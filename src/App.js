@@ -1,9 +1,9 @@
 import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from "react-router";
-import Home from "./pages/homePage/Home";
-import Agents from "./pages/agentsPage/Agents";
-import Agent from "./pages/singleAgentPage/Agent";
-import Kda from "./pages/kdaCalculatorPage/Kda";
+import Home from "./pages/homePage/Home.tsx";
+import Agents from "./pages/agentsPage/Agents.tsx";
+import Agent from "./pages/singleAgentPage/Agent.tsx";
+import Kda from "./pages/kdaCalculatorPage/Kda.tsx";
 import "./general.css";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 

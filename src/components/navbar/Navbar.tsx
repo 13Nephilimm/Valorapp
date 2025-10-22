@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import { SiValorant } from "react-icons/si";
 import { FaHatCowboy } from "react-icons/fa";
 import { TbCalculatorFilled } from "react-icons/tb";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
-    <nav
+    <motion.nav
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
@@ -26,7 +27,7 @@ const Navbar = () => {
           <TbCalculatorFilled className="nav-icon" />
         </div>
       </Link>
-    </nav>
+    </motion.nav>
   );
 };
 

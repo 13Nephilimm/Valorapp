@@ -1,16 +1,18 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./kda.css";
-import Navbar from "../../components/navbar/Navbar";
+import Navbar from "../../components/navbar/Navbar.tsx";
 import { GiDeathZone, GiCrossbow } from "react-icons/gi";
 import { FaCrosshairs } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Kda = () => {
-  const [kills, setKills] = useState("");
-  const [assists, setAssists] = useState("");
-  const [deaths, setDeaths] = useState("");
+  const [kills, setKills] = useState<number>(0);
+  const [assists, setAssists] = useState<number>(0);
+  const [deaths, setDeaths] = useState<number>(0);
 
-  const kda = ((Number(kills) + Number(assists)) / Number(deaths)).toFixed(2);
+  const kda: number = Number(
+    ((Number(kills) + Number(assists)) / Number(deaths)).toFixed(2)
+  );
 
   return (
     <>
@@ -30,9 +32,7 @@ const Kda = () => {
               className="kills input"
               placeholder="Kills..."
               value={kills}
-              onChange={(e) => {
-                setKills(e.target.value);
-              }}
+              onChange={(e) => setKills(Number(e.target.value))}
             />
           </div>
           <div className="input-box">
@@ -42,9 +42,7 @@ const Kda = () => {
               className="assists input"
               placeholder="Assists..."
               value={assists}
-              onChange={(e) => {
-                setAssists(e.target.value);
-              }}
+              onChange={(e) => setAssists(Number(e.target.value))}
             />
           </div>
           <div className="input-box">
@@ -54,9 +52,7 @@ const Kda = () => {
               className="deaths input"
               placeholder="Deaths..."
               value={deaths}
-              onChange={(e) => {
-                setDeaths(e.target.value);
-              }}
+              onChange={(e) => setDeaths(Number(e.target.value))}
             />
           </div>
           {kda > 0 && kda != Infinity && (
