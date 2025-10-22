@@ -1,6 +1,6 @@
 Valorant Application - ValorApp!
 
-Built with React. (Framer Motion, Browser Router) 
+Built with React & TypeScript. (Framer Motion, Browser Router) 
 
 LIVE DEMO: https://nephilims-valorapp.netlify.app/
 
